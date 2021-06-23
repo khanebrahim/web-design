@@ -24,14 +24,30 @@ html,body{
 }
 .main-nav{
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-color: black;
     color:white;
 
 }
 .name{
     float: left;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+
 }
+
 .list-items{
     float: right;
+}
+
+.list-items li{
+    list-style: none;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    margin-left:10px;
+    cursor: pointer;
+
 }
