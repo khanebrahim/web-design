@@ -1,56 +1,55 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-html,body{
-    max-width:100vw;
+html,
+body {
+    max-width: 100vw;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-
-
 }
-.clearfix{
+
+.clearfix {
     content: '';
     display: block;
-    clear:both;
+    clear: both;
 }
 
-.container{
+.container {
     width: 70%;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
-.main-nav{
+
+.main-nav {
     width: 100%;
     height: 60px;
     background-color: black;
-    color:white;
-
+    color: white;
 }
-.name{
+
+.name {
     float: left;
     height: 60px;
     line-height: 60px;
     font-size: 30px;
-
 }
 
-.list-items{
+.list-items {
     float: right;
 }
 
-.list-items li{
+.list-items li {
     list-style: none;
     display: inline-block;
     height: 60px;
     line-height: 60px;
     font-size: 18px;
-    margin-left:10px;
+    margin-left: 10px;
     cursor: pointer;
-
 }
+
 .profile-section {
     margin: 30px 0;
     background-color: aliceblue;
@@ -58,32 +57,87 @@ html,body{
     overflow: hidden;
 }
 
-.profile-picture{
+.profile-picture {
     width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
     margin: 20px auto;
-
 }
+
 .profile-picture img {
     width: 200px;
     height: auto;
 }
-.profile-intro{
+
+.profile-intro {
     float: left;
     width: 30%;
-
 }
 
-.profile-name h3{
+.profile-name h3 {
     text-align: center;
     color: rgb(14, 13, 13);
-
 }
-.profile-bio{
+
+.profile-bio {
     float: right;
     width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.profile-bio h1 {
+    color: black;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.profile-bio p {
+    color: #040303;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links a,
+.social-links a:active .social-links a:visited {
+    text-decoration: none;
+    color: salmon;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.contact-table td,
+.contact-table th {
+    border:1px solid rgb(237, 231, 230);
+    padding: 10px;
+}
+.contact-table tr:nth-child(even){
+    background-color: aliceblue;
+}
+.contact-table tr:hover{
+    background-color:#ddd;
+}
+.contact-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: salmon;
+    color: #ddd;
+
 }
